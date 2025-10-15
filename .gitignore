@@ -1,0 +1,48 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Env/config
+.env
+.env.*
+*.local
+
+# Node/Next.js
+node_modules/
+**/node_modules/
+.next/
+app/.next/
+.next-cache/
+app/.turbo/
+
+# Builds/Dist
+build/
+dist/
+
+# Anchor/Solana
+/target/
+programs/**/target/
+**/*.so
+**/*.a
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Cypress
+cypress/videos/
+cypress/screenshots/
+app/cypress/videos/
+app/cypress/screenshots/
+
+# Vercel/Netlify
+.vercel/
+.netlify/
+
+# Coverage
+coverage/
+
+# Editor
+.vscode/
+.idea/

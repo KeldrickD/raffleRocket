@@ -1,0 +1,46 @@
+{
+  "created": [
+    {
+      "publicKey": "7ZAYxNxqZEgsXQxHTwGze7NkudMtVfnUVZmfKjfMc78s",
+      "nftName": "Super Solana Jackpot",
+      "nftImage": "https://example.com/raffle1.png",
+      "ticketPrice": 0.5,
+      "ticketsSold": 12,
+      "ticketCap": 100,
+      "endTime": 1690000000,
+      "winner": null,
+      "status": "active"
+    }
+  ],
+  "participated": [
+    {
+      "publicKey": "9nSJEGiANJyP5RrgGiU9Y4LGtLN7YhheK54g8HqzLxrV",
+      "nftName": "Weekly SOL Giveaway",
+      "nftImage": "https://example.com/raffle2.png",
+      "ticketPrice": 0.1,
+      "ticketsPurchased": 3,
+      "endTime": 1695000000,
+      "status": "active"
+    },
+    {
+      "publicKey": "3eZYw9VMhQyFGfEBbZ7Ub9uei3oM2o3SheXbfM5RPPea",
+      "nftName": "Solana Monkey Business #123",
+      "nftImage": "https://example.com/nft-monkey.png",
+      "ticketPrice": 1.5,
+      "ticketsPurchased": 5,
+      "endTime": 1640995200,
+      "status": "completed",
+      "won": true
+    },
+    {
+      "publicKey": "DxpFpEV2tYc5kgy8NCHBGAdVVkuEJGpQHMcEhWp9Uibt",
+      "nftName": "DeGods #456",
+      "nftImage": "https://example.com/degods.png",
+      "ticketPrice": 2.0,
+      "ticketsPurchased": 1,
+      "endTime": 1645056000,
+      "status": "completed",
+      "won": false
+    }
+  ]
+} 

@@ -1,0 +1,20 @@
+[package]
+name = "rafflerocket"
+version = "0.1.0"
+description = "A fully-decentralized NFT raffle platform on Solana"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+name = "rafflerocket"
+
+[features]
+no-entrypoint = []
+no-id = []
+no-log-ix-name = []
+cpi = ["no-entrypoint"]
+default = []
+
+[dependencies]
+anchor-lang = { version = "0.31.1", features = ["init-if-needed"] }
+anchor-spl = "0.31.1"

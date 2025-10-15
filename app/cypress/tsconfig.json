@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es2015",
+    "lib": ["es2015", "dom"],
+    "types": ["cypress", "node"],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true
+  },
+  "include": [
+    "**/*.js",
+    "**/*.ts",
+    "e2e/**/*.js",
+    "e2e/**/*.ts",
+    "support/**/*.js",
+    "support/**/*.ts",
+    "fixtures/**/*.json"
+  ]
+} 

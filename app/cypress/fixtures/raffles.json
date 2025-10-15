@@ -1,0 +1,70 @@
+[
+  {
+    "publicKey": "7ZAYxNxqZEgsXQxHTwGze7NkudMtVfnUVZmfKjfMc78s",
+    "account": {
+      "authority": "8dHEaZ2GacwcJxUeVfYcFjyCFK6neTXLzpvMRfgh3Ddp",
+      "ticketPrice": "500000000",
+      "ticketCap": 100,
+      "ticketsSold": 12,
+      "totalEntries": 15,
+      "startTime": "1648123456",
+      "endTime": "1690000000",
+      "endTimestamp": "1690000000",
+      "nftMint": "DxpFpEV2tYc5kgy8NCHBGAdVVkuEJGpQHMcEhWp9Uibt",
+      "nftTokenAccount": "H5aXgbPQRX57L2Sbc9pYJKXpmLaSoaBiKYG44GVpLygb",
+      "winner": null,
+      "entries": [
+        {
+          "buyer": "8dHEaZ2GacwcJxUeVfYcFjyCFK6neTXLzpvMRfgh3Ddp",
+          "entries": 5,
+          "timestamp": 1648123678
+        },
+        {
+          "buyer": "7fvkSbzfrBdSqpjez7jGMNKshzwNs7p9nkVEB9THCgHE",
+          "entries": 7,
+          "timestamp": 1648123878
+        }
+      ],
+      "isVrfEnabled": true,
+      "bump": 255
+    },
+    "nftName": "Super Solana Jackpot",
+    "nftImage": "https://example.com/raffle1.png",
+    "nftDescription": "Win big with this amazing jackpot raffle!",
+    "collectionName": "Solana Raffles"
+  },
+  {
+    "publicKey": "9nSJEGiANJyP5RrgGiU9Y4LGtLN7YhheK54g8HqzLxrV",
+    "account": {
+      "authority": "7fvkSbzfrBdSqpjez7jGMNKshzwNs7p9nkVEB9THCgHE",
+      "ticketPrice": "100000000",
+      "ticketCap": 50,
+      "ticketsSold": 8,
+      "totalEntries": 10,
+      "startTime": "1648124456",
+      "endTime": "1695000000",
+      "endTimestamp": "1695000000",
+      "nftMint": "C4sfG9Z3iMDPmVJ4qN2i5SfkBqgRfsnSu2CGLmYDP7WZ",
+      "nftTokenAccount": "J3a29G6EQtUTXgS3SLXw7HDarLaFQxQNKNs2wRyRptbZ",
+      "winner": null,
+      "entries": [
+        {
+          "buyer": "8dHEaZ2GacwcJxUeVfYcFjyCFK6neTXLzpvMRfgh3Ddp",
+          "entries": 3,
+          "timestamp": 1648124678
+        },
+        {
+          "buyer": "7fvkSbzfrBdSqpjez7jGMNKshzwNs7p9nkVEB9THCgHE",
+          "entries": 5,
+          "timestamp": 1648125678
+        }
+      ],
+      "isVrfEnabled": false,
+      "bump": 255
+    },
+    "nftName": "Weekly SOL Giveaway",
+    "nftImage": "https://example.com/raffle2.png",
+    "nftDescription": "Enter for a chance to win the weekly SOL prize!",
+    "collectionName": "Weekly Raffles"
+  }
+] 
